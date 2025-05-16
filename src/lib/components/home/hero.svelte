@@ -26,7 +26,7 @@
 </script>
 
 <div class="relative overflow-hidden">
-	<div class="relative mx-auto max-w-[85rem] px-4 pb-10 pt-24 sm:px-6 lg:px-8">
+	<div class="relative mx-auto max-w-340 px-4 pb-10 pt-24 sm:px-6 lg:px-8">
 		<!-- Version badge -->
 		<div class="flex justify-center">
 			<a

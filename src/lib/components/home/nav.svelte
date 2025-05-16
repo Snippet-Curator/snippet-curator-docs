@@ -11,10 +11,10 @@
 </script>
 
 <header
-	class="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+	class="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur-sm supports-backdrop-filter:bg-background/60"
 >
 	<nav
-		class="relative mx-auto w-full max-w-[85rem] px-4 py-4 sm:px-6 md:flex md:items-center md:justify-between md:gap-3 lg:px-8"
+		class="relative mx-auto w-full max-w-340 px-4 py-4 sm:px-6 md:flex md:items-center md:justify-between md:gap-3 lg:px-8"
 	>
 		<!-- Logo w/ Collapse Button -->
 		<div class="flex items-center justify-between">

@@ -10,11 +10,11 @@
 
 <div class="relative mx-auto max-w-6xl">
 	<img
-		class="z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,_0,_0,_0.1)]"
+		class="z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,0,0,0.1)]"
 		src="images/frontpage.png"
 	/>
 	<img
-		class="absolute left-16 top-10 -z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,_0,_0,_0.1)]"
+		class="absolute left-16 top-10 -z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,0,0,0.1)]"
 		src="images/frontpage-dark.png"
 	/>
 </div>

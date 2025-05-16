@@ -2,7 +2,7 @@
 	import { features } from '$lib/config';
 </script>
 
-<div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+<div class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
 	<div class="grid items-center gap-12 sm:grid-cols-2 lg:grid-cols-4">
 		{#each features as feature}
 			<!-- Feature Block -->
