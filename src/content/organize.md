@@ -1,6 +1,6 @@
 ---
-title: Example Sites
-description: Showcase of websites and documentation built with our documentation template
+title: Organize notes
+description: fdsf
 ---
 
 

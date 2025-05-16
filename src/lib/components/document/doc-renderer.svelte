@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import PromoCard from './promo-card.svelte';
 	import Separator from '../ui/separator/separator.svelte';
 	import DocContent from './doc-content.svelte';
 	import DocHeader from './doc-header.svelte';
@@ -50,7 +49,7 @@
 				<div class="block sm:hidden">
 					<MobileTableOfContents />
 				</div>
-				<PromoCard />
+				<!-- <PromoCard /> -->
 			</div>
 		</div>
 	</div>

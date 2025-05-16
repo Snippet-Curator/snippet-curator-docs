@@ -23,9 +23,9 @@
 
 			<div class="flex items-center gap-2">
 				<SearchBar />
-				<div class="hidden sm:block">
+				<!-- <div class="hidden sm:block">
 					<SocialMedia />
-				</div>
+				</div> -->
 				<DarkModeToggle />
 			</div>
 		</header>
