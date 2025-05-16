@@ -6,7 +6,6 @@
 	let { ref = $bindable(null), ...restProps }: ComponentProps<typeof Sidebar.Root> = $props();
 	import { docsNavigation } from '$lib/components/doc-navigation.svelte';
 	import { page } from '$app/state';
-	import SocialMedia from './social-media.svelte';
 	const path = $derived(page.url.pathname);
 </script>
 
@@ -18,7 +17,7 @@
 					{#snippet child({ props })}
 						<a href="/" {...props}>
 							<div
-								class="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground"
+								class="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg"
 							>
 								<GalleryVerticalEnd class="size-4" />
 							</div>
@@ -63,9 +62,7 @@
 		</Sidebar.Group>
 	</Sidebar.Content>
 	<div class="block sm:hidden">
-		<Sidebar.Footer>
-			<SocialMedia />
-		</Sidebar.Footer>
+		<Sidebar.Footer></Sidebar.Footer>
 	</div>
 
 	<Sidebar.Rail />

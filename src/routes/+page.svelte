@@ -14,7 +14,7 @@
 		src="images/frontpage.png"
 	/>
 	<img
-		class="absolute left-16 top-10 -z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,0,0,0.1)]"
+		class="absolute top-10 left-16 -z-10 rounded-md shadow-[-1px_8px_38px_-2px_rgba(0,0,0,0.1)]"
 		src="images/frontpage-dark.png"
 	/>
 </div>
