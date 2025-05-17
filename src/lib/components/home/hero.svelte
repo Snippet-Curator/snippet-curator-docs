@@ -2,27 +2,22 @@
 	import { ChevronRight } from 'lucide-svelte';
 </script>
 
-<div class="relative overflow-hidden">
-	<div class="relative mx-auto max-w-340 px-4 pt-24 pb-10 sm:px-6 lg:px-8">
-		<!-- Title -->
-		<div class="mx-auto mt-5 max-w-2xl text-center">
-			<h1
-				class="block text-4xl font-bold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
-			>
-				Recollect
-			</h1>
-		</div>
+<div class="mx-auto max-w-6xl pt-20 pb-10 md:h-screen">
+	<!-- Title -->
+	<h1 class="m-golden-lg block text-center text-4xl font-bold md:text-5xl lg:text-6xl">
+		Recollect
+	</h1>
 
-		<!-- Description -->
-		<div class="mx-auto mt-5 max-w-3xl text-center">
-			<p class="text-lg">Organize and re-discover your internet saves.</p>
-		</div>
-
-		<!-- Action Buttons -->
-		<div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-			<button class="btn">
-				<a href="/docs">Get Started</a><ChevronRight size={18} />
-			</button>
-		</div>
+	<!-- Description -->
+	<div class="m-golden-lg mx-auto max-w-3xl text-center">
+		<p class="m-golden-md text-lg">Organize and re-discover your internet saves.</p>
+		<button class="btn btn-primary mx-auto">
+			<a href="/docs">Get Started</a><ChevronRight size={18} />
+		</button>
+	</div>
+	<!-- Image -->
+	<div class="m-golden-xl relative mt-10">
+		<img class="hidden rounded-md shadow-xl dark:block" src="images/frontpage.png" />
+		<img class="rounded-md shadow-xl" src="images/frontpage-dark.png" />
 	</div>
 </div>
