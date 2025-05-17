@@ -18,6 +18,6 @@
 	<!-- Image -->
 	<div class="m-golden-xl relative mt-10">
 		<img class="hidden rounded-md shadow-xl dark:block" src="images/frontpage.png" />
-		<img class="rounded-md shadow-xl" src="images/frontpage-dark.png" />
+		<img class="rounded-md shadow-xl dark:hidden" src="images/frontpage-dark.png" />
 	</div>
 </div>

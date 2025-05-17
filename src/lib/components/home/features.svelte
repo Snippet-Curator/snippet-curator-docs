@@ -18,8 +18,8 @@
 					class="col-span-12 flex flex-col px-12 text-lg md:col-span-5 md:px-0 md:py-12 md:text-xl"
 				>
 					<p class="">
-						Add Evernote ENEX, SingleFile HTML, Images, Videos, Audio files, and PDFs. Files are
-						kept private and offline.
+						Add Evernote ENEX, SingleFile HTML, Images, Videos, Audio files, and PDFs. Saved offline
+						and private, even if the website disappears.
 					</p>
 					<div class="mx-auto mt-4 md:ml-0">
 						<button class="btn btn-neutral"
@@ -62,7 +62,7 @@
 						<p>Notes are ranked on based on rating, upvotes, and how recently they were viewed.</p>
 						<div class="mt-4">
 							<button class="btn btn-neutral"
-								>See How Imports Work <ChevronRight size={18} />
+								>See How Discover Work <ChevronRight size={18} />
 							</button>
 						</div>
 					</div>
