@@ -2,7 +2,7 @@
 	import { ChevronRight } from 'lucide-svelte';
 </script>
 
-<div class="mx-auto max-w-6xl pt-28 pb-10 md:h-screen">
+<div class="mx-auto max-w-6xl pt-28 pb-10 md:min-h-screen">
 	<!-- Title -->
 	<h1 class="text-center text-4xl font-bold md:text-5xl lg:text-6xl">Recollect</h1>
 
@@ -16,8 +16,20 @@
 		</button>
 	</div>
 	<!-- Image -->
-	<div class="m-golden-xl relative mt-10">
-		<img class="hidden rounded-md shadow-xl dark:block" src="images/frontpage.png" />
-		<img class="rounded-md shadow-xl dark:hidden" src="images/frontpage-dark.png" />
+	<div class="m-golden-xl mt-10">
+		<figure>
+			<img
+				class="hidden rounded-md shadow-xl dark:block"
+				alt="hero light"
+				src="images/frontpage.png"
+			/>
+		</figure>
+		<figure>
+			<img
+				class="rounded-md shadow-xl dark:hidden"
+				alt="hero dark"
+				src="images/frontpage-dark.png"
+			/>
+		</figure>
 	</div>
 </div>

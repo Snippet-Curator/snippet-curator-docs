@@ -73,7 +73,7 @@
 	<Component />
 {/snippet}
 
-<section class="mt-10 md:pt-16">
+<section class="mt-10 min-h-100 md:pt-16">
 	<h2 class="mb-4 text-center text-xl font-bold md:mb-10 md:text-2xl lg:text-3xl">
 		Other Features
 	</h2>
