@@ -8,7 +8,7 @@
 
 	<!-- Description -->
 	<div class="mx-auto max-w-3xl text-center">
-		<p class="mb-golden-lg text-lg">Organize and re-discover your internet saves.</p>
+		<p class="mb-golden-lg text-lg">Organize and re-discover your internet snippets.</p>
 		<button class="btn btn-primary mx-auto">
 			<a href="/docs" class="flex items-center gap-x-2 text-base"
 				>Get Started<ChevronRight size={18} class="" /></a

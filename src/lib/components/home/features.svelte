@@ -12,14 +12,14 @@
 				<h2
 					class="col-span-12 text-left text-xl font-bold md:col-span-8 md:mb-6 md:text-2xl lg:text-3xl"
 				>
-					Your Personal Pinterest, Instagram Save, or Bookmarks Collection
+					Your Private Pinterest, Instagram Saves, or Bookmarks Collection
 				</h2>
 				<div
 					class="col-span-12 flex flex-col items-end text-base md:col-span-5 md:px-0 md:pt-8 md:pb-12 md:text-xl"
 				>
 					<p class="">
-						Add Evernote ENEX, SingleFile HTML, images, videos, audio files, and PDFs. Saved offline
-						and private, even if the website disappears.
+						Add Evernote ENEX, SingleFile HTML, images, videos, audio files, and PDFs. Saved
+						offline, available even when the website disappears.
 					</p>
 					<div class="mt-4">
 						<button class="btn btn-ghost">See How Imports Work <ChevronRight size={18} /> </button>
@@ -71,7 +71,7 @@
 					<div
 						class="flex flex-col text-right text-base md:my-4 md:items-end md:text-left md:text-xl"
 					>
-						<p>Notes are ranked on based on rating, upvotes, and how recently they were viewed.</p>
+						<p>Notes are presented based on rating, upvotes, and how recently they were viewed.</p>
 						<div class="mt-4">
 							<button class="btn btn-ghost"
 								>See How Discover Work <ChevronRight size={18} />
