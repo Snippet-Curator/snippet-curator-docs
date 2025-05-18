@@ -34,9 +34,10 @@
 	default: false;
 	prefersdark: true;
 	color-scheme: 'dark';
+	--color-base-100: oklch(20.33% 0.016 252.42);
 	--color-primary: oklch(27% 0.46 200);
 	--color-primary-content: oklch(97% 0.014 254);
-	--green-secondary: oklch(0.233 0.013 145.56);
+	--green-secondary: oklch(23.33% 0.016 252.42);
 	--radius-selector: 0.5rem;
 	--radius-field: 0.5rem;
 	--radius-box: 0.5rem;

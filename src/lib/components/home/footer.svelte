@@ -1,8 +1,8 @@
 <script>
-	import { navItems, siteConfig } from '$lib/config';
+	import { siteConfig } from '$lib/config';
 </script>
 
-<footer class="mx-auto mt-auto w-full max-w-340 px-4 py-10 sm:px-6 lg:px-8">
+<footer class=" mx-auto min-h-50 w-full">
 	<div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
 		<div>
 			<a href="/">

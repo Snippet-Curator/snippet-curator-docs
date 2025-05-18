@@ -1,24 +1,16 @@
-<!-- Navigate Start -->
-<section class="w-full pb-20">
-	<div class="p-golden-lg mx-auto max-w-6xl">
-		<!-- <div class="mb-4 md:mb-8">
-			<h2 class="text-right text-xl font-bold md:mb-2 md:text-2xl lg:text-3xl">
-				Navigate with Pages
-			</h2>
-			<div class=" flex flex-col text-right text-lg md:text-xl">
-				<p class="">Notes are loaded in a near instant.</p>
-			</div>
-		</div> -->
-
-		<video
+<div class="p-golden-lg mx-auto max-w-6xl">
+	<!-- <video
 			class="hidden rounded-lg shadow-md dark:block"
 			muted
 			autoplay
 			loop
 			src="images/search.mp4"
-		></video>
-		<video class="rounded-lg shadow-md dark:hidden" muted autoplay loop src="images/search-dark.mp4"
-		></video>
-	</div>
-	<!-- Navigate End -->
-</section>
+		></video> -->
+	<video
+		class="dark:border-base-content/10 rounded-lg border shadow-md"
+		muted
+		autoplay
+		loop
+		src="images/search-dark.mp4"
+	></video>
+</div>

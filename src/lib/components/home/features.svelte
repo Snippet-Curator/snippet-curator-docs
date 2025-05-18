@@ -2,7 +2,7 @@
 	import { ChevronRight } from 'lucide-svelte';
 </script>
 
-<section class="p-golden-lg bg-[var(--green-secondary)] py-10 text-pretty">
+<section class="p-golden-lg bg-[var(--green-secondary)] py-8 text-pretty md:py-18">
 	<!-- Import -->
 
 	<div class="mx-auto max-w-6xl">
@@ -28,11 +28,15 @@
 
 				<div class="p-golden-md col-span-8 col-start-3 md:col-span-6 md:col-start-7">
 					<figure class="">
-						<img class="rounded-lg shadow-md dark:hidden" src="images/import-dark.png" alt="" />
+						<img
+							class="dark:border-base-content/10 rounded-lg border shadow-md"
+							src="images/import-dark.png"
+							alt=""
+						/>
 					</figure>
-					<figure class="">
+					<!-- <figure class="">
 						<img class="hidden rounded-lg shadow-md dark:block" src="images/import.png" alt="" />
-					</figure>
+					</figure> -->
 				</div>
 			</div>
 			<!-- End Import -->
@@ -43,8 +47,12 @@
 					class="p-golden-md order-3 col-span-10 col-start-2 md:order-1 md:col-span-7 md:col-start-1"
 				>
 					<figure>
-						<img class="rounded-lg shadow-md dark:hidden" src="images/discover-dark.png" alt="" />
-						<img class="hidden rounded-lg shadow-md dark:block" src="images/discover.png" alt="" />
+						<img
+							class="dark:border-base-content/10 rounded-lg border shadow-md"
+							src="images/discover-dark.png"
+							alt=""
+						/>
+						<!-- <img class="hidden rounded-lg shadow-md dark:block" src="images/discover.png" alt="" /> -->
 					</figure>
 				</div>
 
