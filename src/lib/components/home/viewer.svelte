@@ -1,12 +1,12 @@
 <div class="p-golden-lg mx-auto max-w-6xl">
 	<figure>
 		<img
-			class="dark:border-base-content/10 rounded-lg border shadow-md"
+			class="dark:border-base-content/10 rounded-lg border shadow-md dark:hidden"
 			src="images/image-view-dark.png"
 			alt=""
 		/>
 	</figure>
-	<!-- <figure class="">
-			<img class="hidden rounded-lg shadow-md dark:block" src="images/image-view.png" alt="" />
-		</figure> -->
+	<figure class="">
+		<img class="hidden rounded-lg shadow-md dark:block" src="images/image-view.png" alt="" />
+	</figure>
 </div>

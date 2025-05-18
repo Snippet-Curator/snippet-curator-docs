@@ -11,14 +11,14 @@
 		Download
 	} from '$lib/index';
 	import Footer from '$lib/components/home/footer.svelte';
-	import type { Component } from 'svelte';
+	import { onMount, type Component } from 'svelte';
 
 	let features = [
 		{
 			name: 'Organize',
 			component: Organize,
 			title: 'Organize with Notebooks and Tags',
-			description: 'And nested notebooks and tags.'
+			description: 'Organize with Notebooks and Tags.'
 		},
 
 		{
@@ -51,11 +51,17 @@
 
 	let selectedFeature = $state<Feature>(features[0]);
 	let currentIndex = $state(0);
+	let interval: ReturnType<typeof setInterval>;
 
-	setInterval(() => {
-		currentIndex = (currentIndex + 1) % features.length;
-		selectedFeature = features[currentIndex];
-	}, 7000);
+	function scrollTimer() {
+		clearInterval(interval);
+		interval = setInterval(() => {
+			currentIndex = (currentIndex + 1) % features.length;
+			selectedFeature = features[currentIndex];
+		}, 7000);
+	}
+
+	onMount(() => scrollTimer());
 </script>
 
 <!-- <Nav /> -->
@@ -68,26 +74,30 @@
 {/snippet}
 
 <section class="mt-10 md:pt-16">
+	<h2 class="mb-4 text-center text-xl font-bold md:mb-10 md:text-2xl lg:text-3xl">
+		Other Features
+	</h2>
 	<div
-		class="md:gap-golden-lg gap-golden-md lg:gap-golden-xl mx-auto flex w-full max-w-6xl justify-center"
+		class="md:gap-golden-lg gap-golden-md items-place-center px-golden-md mx-auto grid max-w-6xl grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
 	>
 		{#each features as feature, index}
 			<button
 				onclick={() => {
 					selectedFeature = feature;
 					currentIndex = index;
+					scrollTimer();
 				}}
 				class="{selectedFeature.name == feature.name
 					? 'btn-soft'
-					: 'btn-ghost'} btn btn-sm md:btn-lg lg:btn-xl">{feature.name}</button
+					: 'btn-ghost'} btn btn-sm md:btn-lg lg:btn-xl text-nowrap">{feature.name}</button
 			>
 		{/each}
 	</div>
 
 	<div class="px-golden-lg mx-auto mt-10 mb-0 max-w-6xl">
-		<h2 class="text-left text-xl font-bold md:text-2xl lg:text-3xl">
+		<!-- <h2 class="text-left text-lg font-bold md:text-xl lg:text-2xl">
 			{selectedFeature.title}
-		</h2>
+		</h2> -->
 		<div class="flex flex-col text-lg md:text-xl">
 			<p>{selectedFeature.description}</p>
 		</div>

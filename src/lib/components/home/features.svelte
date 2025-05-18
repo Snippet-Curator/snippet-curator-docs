@@ -15,7 +15,7 @@
 					Your Personal Pinterest, Instagram Save, or Bookmarks Collection
 				</h2>
 				<div
-					class="col-span-12 flex flex-col items-end text-lg md:col-span-5 md:px-0 md:pt-8 md:pb-12 md:text-xl"
+					class="col-span-12 flex flex-col items-end text-base md:col-span-5 md:px-0 md:pt-8 md:pb-12 md:text-xl"
 				>
 					<p class="">
 						Add Evernote ENEX, SingleFile HTML, images, videos, audio files, and PDFs. Saved offline
@@ -26,17 +26,17 @@
 					</div>
 				</div>
 
-				<div class="p-golden-md col-span-8 col-start-3 md:col-span-6 md:col-start-7">
+				<div class="p-golden-md col-span-12 col-start-1 md:col-span-6 md:col-start-7">
 					<figure class="">
 						<img
-							class="dark:border-base-content/10 rounded-lg border shadow-md"
+							class="dark:border-base-content/10 rounded-lg border shadow-md dark:hidden"
 							src="images/import-dark.png"
 							alt=""
 						/>
 					</figure>
-					<!-- <figure class="">
+					<figure class="">
 						<img class="hidden rounded-lg shadow-md dark:block" src="images/import.png" alt="" />
-					</figure> -->
+					</figure>
 				</div>
 			</div>
 			<!-- End Import -->
@@ -44,15 +44,21 @@
 			<!-- Discover -->
 			<div class="gap-x-golden-md mt-12 grid grid-cols-12 items-start">
 				<div
-					class="p-golden-md order-3 col-span-10 col-start-2 md:order-1 md:col-span-7 md:col-start-1"
+					class="p-golden-md order-3 col-span-12 col-start-1 md:order-1 md:col-span-7 md:col-start-1"
 				>
 					<figure>
 						<img
-							class="dark:border-base-content/10 rounded-lg border shadow-md"
+							class="dark:border-base-content/10 rounded-lg border shadow-md dark:hidden"
 							src="images/discover-dark.png"
 							alt=""
 						/>
-						<!-- <img class="hidden rounded-lg shadow-md dark:block" src="images/discover.png" alt="" /> -->
+						<figure>
+							<img
+								class="hidden rounded-lg shadow-md dark:block"
+								src="images/discover.png"
+								alt=""
+							/>
+						</figure>
 					</figure>
 				</div>
 
@@ -63,7 +69,7 @@
 						Discover Notes Based on Algorithm
 					</h2>
 					<div
-						class="flex flex-col text-right text-lg md:my-4 md:items-end md:text-left md:text-xl"
+						class="flex flex-col text-right text-base md:my-4 md:items-end md:text-left md:text-xl"
 					>
 						<p>Notes are ranked on based on rating, upvotes, and how recently they were viewed.</p>
 						<div class="mt-4">
