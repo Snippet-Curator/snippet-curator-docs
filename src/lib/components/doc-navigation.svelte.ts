@@ -104,7 +104,8 @@ class DocsNavigation {
                 }
             }
         });
-        return this.sortNavItems(root);
+        // return this.sortNavItems(root);
+        return root
 
     };
 

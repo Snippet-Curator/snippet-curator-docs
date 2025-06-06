@@ -50,6 +50,6 @@
 	});
 </script>
 
-<div class="prose prose-slate max-w-none dark:prose-invert" bind:this={contentRef}>
+<div class="prose prose-lg prose-slate dark:prose-invert max-w-none" bind:this={contentRef}>
 	<data.doc />
 </div>

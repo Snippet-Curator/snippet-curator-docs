@@ -18,8 +18,8 @@
 					class="col-span-12 flex flex-col items-end text-base md:col-span-5 md:px-0 md:pt-8 md:pb-12 md:text-xl"
 				>
 					<p class="">
-						Add Evernote ENEX, SingleFile HTML, images, videos, audio files, and PDFs. Saved
-						offline, available even when the website disappears.
+						Add Evernote exports, SingleFile saves, images, videos, audio, and PDFs files. Saved
+						offline, available even when the webpage disappears.
 					</p>
 					<div class="mt-4">
 						<button class="btn btn-ghost">See How Imports Work <ChevronRight size={18} /> </button>
