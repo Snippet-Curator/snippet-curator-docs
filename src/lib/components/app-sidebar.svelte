@@ -17,7 +17,7 @@
 					{#snippet child({ props })}
 						<a href="/" {...props}>
 							<div
-								class="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg"
+								class="bg-base-200 text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg"
 							>
 								<GalleryVerticalEnd class="size-4" />
 							</div>

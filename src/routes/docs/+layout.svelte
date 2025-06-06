@@ -11,16 +11,12 @@
 	<AppSidebar />
 	<Sidebar.Inset>
 		<header
-			class="bg-background sticky top-0 z-10 flex shrink-0 items-center justify-between gap-2 border-b px-4"
+			class="bg-base-100 sticky top-0 z-10 flex shrink-0 items-center justify-between gap-2 border-b px-4"
 		>
 			<div class="flex h-16 items-center gap-2">
 				<Sidebar.Trigger class="-ml-1" />
 				<Separator orientation="vertical" class="mr-2 h-4" />
 				<Breadcrumb />
-			</div>
-
-			<div class="flex items-center gap-2">
-				<SearchBar />
 			</div>
 		</header>
 		<div class="flex flex-col gap-4 p-4">
