@@ -8,7 +8,10 @@
 			// Construct the path up to this segment
 			const href = '/' + segments.slice(0, index + 1).join('/');
 			return {
-				name: segment.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase()),
+				name: segment
+					.replace(/^[0-9]+_/g, '')
+					.replace(/_/g, ' ')
+					.replace(/\b\w/g, (char) => char.toUpperCase()),
 				href
 			};
 		})

@@ -44,7 +44,7 @@
 		<Sheet.Content
 			data-sidebar="sidebar"
 			data-mobile="true"
-			class="bg-sidebar text-sidebar-foreground w-(--sidebar-width) p-0 [&>button]:hidden"
+			class="bg-base-100 text-content w-(--sidebar-width) p-0 [&>button]:hidden"
 			style="--sidebar-width: {SIDEBAR_WIDTH_MOBILE};"
 			{side}
 		>
@@ -56,7 +56,7 @@
 {:else}
 	<div
 		bind:this={ref}
-		class="text-sidebar-foreground group peer hidden md:block"
+		class="text-content group peer hidden md:block"
 		data-state={sidebar.state}
 		data-collapsible={sidebar.state === 'collapsed' ? collapsible : ''}
 		data-variant={variant}

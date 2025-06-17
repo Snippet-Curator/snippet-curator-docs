@@ -1,26 +1,9 @@
 ---
 title: About
-description: Discover notes
 ---
 
-## wat this is
+Snippet Curator is a personal, private, offline collector of internet items that you can save and re-discover over time. 
 
-The idea is to have a personal, private collection of internet items that you can revisit. Your own pinterest, or instagram saves, or bookmarklet with all of the pages saved.
+Unlike other bookmark sites, besides embedded Youtube videos, items imported to Curator are saved offline. Even if the original webpage is deleted or you lose internet connection, your saves are still secure on your computer. Think of this more as a lightweight alternative to Evernote for web clips than Pinterest. It also differs with some of the other archival tools in that it only imports what you saved, instead of the whole page. Often times, we only want to save a small snippet of what we are reading or watching.  
 
-Instead of being a bookmark site, where if the oringal site is deleted, your bookmark is obsolte. 
-
-What's presented in Recollect is actually saved to your computer. 
-
- ## What this is not
- - not a note taking tool
- - not a clipper.
-
-
-## How this differs from others
-
-### Other archival tools
-
-- other bookmark sites offer similar function of saving a snapshot of the page. This is limited in 2 ways: 
- - the entire page is saved. Sometimes I just want to the one item or one section and not the entire page
- - sites requiring loggin will have limited snapshot ability. Whereas recollect uses Singlefile or Evernote clipper
-
+Snippet Curator helps discovering notes by ranking each note with a score and present them based on their rating, votes, and how recently they were seen. Think of this as similar to Anki flash cards. I often found Anki's way of reviewing cards punitive: if you miss a day or two of reviewing cards, they can pile up easily. Snippet Curator, on the other hand, presents items in a more casual viewing way.  

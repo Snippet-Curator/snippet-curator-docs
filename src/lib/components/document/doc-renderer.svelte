@@ -6,7 +6,7 @@
 	import { createHighlighter } from 'shiki/bundle/web';
 	import { mode } from 'mode-watcher';
 	import TableOfContents from './table-of-contents.svelte';
-	import MobileTableOfContents from './mobile-table-of-contents.svelte';
+	// import MobileTableOfContents from './mobile-table-of-contents.svelte';
 
 	let highlighter: any = $state();
 	let { title, description, data }: { title: string; description: string; data: any } = $props();
@@ -46,9 +46,9 @@
 					<TableOfContents />
 					<Separator />
 				</div>
-				<div class="block sm:hidden">
+				<!-- <div class="block sm:hidden">
 					<MobileTableOfContents />
-				</div>
+				</div> -->
 				<!-- <PromoCard /> -->
 			</div>
 		</div>

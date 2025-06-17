@@ -4,11 +4,11 @@
 
 <div class="mx-auto max-w-6xl pt-28 pb-10 md:min-h-screen">
 	<!-- Title -->
-	<h1 class="text-center text-4xl font-bold md:text-5xl lg:text-6xl">Recollect</h1>
+	<h1 class="mb-2 text-center text-4xl font-bold md:text-5xl lg:text-6xl">Snippet Curator</h1>
 
 	<!-- Description -->
 	<div class="mx-auto max-w-3xl text-center">
-		<p class="mb-golden-lg text-lg">Organize and re-discover your internet snippets.</p>
+		<p class="mb-golden-lg text-lg">Organize and re-discover your internet saves</p>
 		<button class="btn btn-primary mx-auto">
 			<a href="/docs" class="flex items-center gap-x-2 text-base"
 				>Get Started<ChevronRight size={18} class="" /></a

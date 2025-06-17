@@ -89,7 +89,19 @@
 
 @layer base {
 	html {
-		@apply 3xl:text-lg 4xl:text-2xl 5xl:text-4xl 2xl:text-lg;
+		@apply 3xl:text-xl 4xl:text-2xl 5xl:text-4xl 2xl:text-lg;
+	}
+	body {
+		@apply font-display;
+	}
+
+	input,
+	label {
+		@apply outline-none;
+	}
+
+	button {
+		@apply font-concourse3;
 	}
 }
 
@@ -105,17 +117,4 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
-}
-
-body {
-	@apply font-display;
-}
-
-input,
-label {
-	@apply outline-none;
-}
-
-button {
-	@apply font-concourse3;
 }

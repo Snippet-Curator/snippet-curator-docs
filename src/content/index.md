@@ -1,9 +1,9 @@
 ---
 title: Install
-description: Installing Recollect
+description: 
 ---
 
-## Installing Recollect
+Snippet Curator is provided for free. You can install for Mac or Windows. 
 
-Install from Mac or Windows app store
+
 

@@ -5,7 +5,7 @@ description: Discover notes
 
 Notes under Discover are presented based on their scores in a descending rank list. Scores are calculated based on several factors, and their weight can be adjusted under settings:
 
-![](/images/setting-discover.png)
+![](/images/settings-discover.png)
 
 ### Recency Score
 
@@ -43,7 +43,7 @@ By default, notes seen in the last hour are penalized fully, and the window to r
 
 One problem with having notes presented by scores is that lower scored notes are seen less, and thus less likely to have their scores refreshed. If you have a large collection, the bottom of the list may never be seen or have their scores refreshed to include the new recency score.
 
-At startup, Recollect will recalculate scores for notes to mitigate this problem. By default (0 day), all notes have their scores recalculated on startup. When the collection size is large enough, this may cause performance problems. For example, I currently have about 6,000 notes, and it takes about 1.5 seconds to calculate all of their scores.
+At startup, Snippet Curator will recalculate scores for notes to mitigate this problem. By default (0 day), all notes have their scores recalculated on startup. When the collection size is large enough, this may cause performance problems. For example, I currently have about 6,000 notes, and it takes about 1.5 seconds to calculate all of their scores.
 
 You can change this to a different cutoff to refresh scores for notes last calculated before the cutoff. For example, changing it to 5 will calculate only notes with scores more than 5 days old. 
 
