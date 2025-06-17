@@ -30,6 +30,10 @@ From left to right:
 - trash
 - note info
 
+![](/images/edit-note-dialog.png)
+
+An example of edit dialog. 
+
 ## Bulk Edits 
 
 Bulk edits can be helpful to make edits to multiple notes at the same time. Click the bulk button (shortcut `b`) to activate:

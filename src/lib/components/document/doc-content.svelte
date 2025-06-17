@@ -51,7 +51,7 @@
 </script>
 
 <div
-	class="prose prose-p:text-xl prose-ul:text-xl prose-slate dark:prose-invert"
+	class="prose prose-p:text-xl prose-ul:text-xl prose-slate dark:prose-invert mb-20"
 	bind:this={contentRef}
 >
 	<data.doc />

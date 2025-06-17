@@ -25,12 +25,12 @@ Exports with the same title and date in the Enex files are considered duplicate 
 
 Some caveats to Evernote imports include following:
 - since .enex do not include Notebooks, you will have to manually import the notes into the notebook you want
-- tags are imported as tags. However, nested structures are not saved in .enex files and are not imported
+- tags are imported. However, nested structures are not saved in .enex files and are not imported
 - created date is used from Evernote as created date in Curator. This allows preservation of original save date
 
 ## SingleFile
 
-[SingleFile](https://github.com/gildas-lormeau/SingleFile) is a browser extension that allows you to save webpages. It's the closest tool to Evernote's clipper that I can find. 
+[SingleFile](https://github.com/gildas-lormeau/SingleFile) is an open source browser extension that allows you to save webpages. It's the closest tool to Evernote's clipper that I can find. 
 
 SingleFile will save webpages to .html.
 
@@ -42,7 +42,7 @@ All other files ending not in .enex or .html are uploaded as individual files. E
 
 ## Youtube URLs
 
-I've always hated how it's difficult to manage youtube save playlists, see which videos are not working anymore, and searching for the right one. This function is made to help with that.
+I've always hated how it's difficult to manage youtube save playlists, see which videos are not working anymore, or search for the right one. This function is made to help with that.
 
 You can add youtube urls to to save youtube videos. The videos are not downloaded (there are other tools you can use to download and then merge the video into the note). This is mainly useful for organizing youtube playlists. You do need a [youtube API](https://console.cloud.google.com/apis/library/youtube.googleapis.com) to get started.
 
