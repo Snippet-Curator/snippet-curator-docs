@@ -2,7 +2,7 @@
 	import { navItems, siteConfig } from '$lib/config';
 </script>
 
-<header class="bg-base-100 sticky top-0 z-50 w-full border-b">
+<header class="bg-base-200/40 border-b-base-200/40 sticky top-0 z-50 w-full border-b">
 	<nav class="relative mx-auto flex w-full">
 		<!-- Logo w/ Collapse Button -->
 		<div class="flex items-center justify-between">
