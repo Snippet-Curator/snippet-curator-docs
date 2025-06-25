@@ -7,7 +7,7 @@ Currently, 4 ways of importing is supported: Evernote, SingleFile, other files, 
 
 ## Evernote
 
-Export Evernote files as [.enex files](https://help.evernote.com/hc/en-us/articles/209005557-Export-Notes-and-Notebooks-as-ENEX-or-HTML). There area also several scripts that can export for you. I used the one [here](https://github.com/vzhd1701/evernote-backup).
+Export Evernote files as [ENEX files](https://help.evernote.com/hc/en-us/articles/209005557-Export-Notes-and-Notebooks-as-ENEX-or-HTML). There area also several scripts that can export for you. I used the one [here](https://github.com/vzhd1701/evernote-backup).
 
 
 Exports with the same title and date in the Enex files are considered duplicate and not uploaded. Following fields are imported:
@@ -24,15 +24,15 @@ Exports with the same title and date in the Enex files are considered duplicate 
 | files | embedded if possible |
 
 Some caveats to Evernote imports include following:
-- since .enex do not include Notebooks, you will have to manually import the notes into the notebook you want
-- tags are imported. However, nested structures are not saved in .enex files and are not imported
+- since ENEX files do not include Notebooks, you will have to manually import the notes into the notebook you want
+- tags are imported. However, nested structures are not saved in ENEX files and are not imported
 - created date is used from Evernote as created date in Curator. This allows preservation of original save date
 
 ## SingleFile
 
 [SingleFile](https://github.com/gildas-lormeau/SingleFile) is an open source browser extension that allows you to save webpages. It's the closest tool to Evernote's clipper that I can find. 
 
-SingleFile will save webpages to .html.
+SingleFile will save webpages to as HTML files.
 
 ## Files
 
@@ -42,13 +42,13 @@ All other files ending not in .enex or .html are uploaded as individual files. E
 
 ## Youtube URLs
 
-I've always hated how it's difficult to manage youtube save playlists, see which videos are not working anymore, or search for the right one. This function is made to help with that.
+I've always hated how it's difficult to manage youtube save playlists, see which videos are not working anymore, or search for the right one. This import function is made to help with that.
 
 You can add youtube urls to to save youtube videos. The videos are not downloaded (there are other tools you can use to download and then merge the video into the note). This is mainly useful for organizing youtube playlists. You do need a [youtube API](https://console.cloud.google.com/apis/library/youtube.googleapis.com) to get started.
 
 ![](/images/youtube-save.png)
 
-The saved format is very barebone, and only includes title, thumbnail, description, and embedded video, :
+The saved format is very barebone, and only includes title, thumbnail, description, and embedded video:
 
 ![](/images/youtube-content.png)
 
@@ -61,7 +61,7 @@ The embedded version of youtube will require internet to work. It's also not per
 
 ## Instagram
 
-There are multiple ways to save instagram posts. None of them are perfect. If you don't mind tinkering, I have made my personal script [here](https://github.com/kangruixiang/instatonote) that will save public instagram posts as an html file, including videos. And then you can use it to import into Curator.
+There are multiple ways to save instagram posts. None of them are perfect. If you don't mind tinkering, I have made my personal script [here](https://github.com/kangruixiang/instatonote) that will save public instagram posts as an HTML file, including videos. And then you can use it to import into Curator.
 
 
 ## How Different Saved Items Are Displayed

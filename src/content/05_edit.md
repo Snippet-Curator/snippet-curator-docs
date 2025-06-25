@@ -45,7 +45,7 @@ You can use this to append content, including copied images, to the note:
 
 ![](/images/edit-note-toolbar.png)
 
-While editing the note content directly would be nice, I found that this was very difficult without messing up the style. Most of available editors will strip existing styles when editing. For now, this is the easiest option to treat existing save as non-editable.
+While editing the note content directly would be nice, I found that this was very difficult without messing up the style. Most of available editors will strip existing styles when editing. For now, it's easiest to treat the saved content as non-editable and append new ones.
 
 ## Bulk Edits 
 
@@ -57,4 +57,4 @@ Bulk edits can be helpful to make edits to multiple notes at the same time. Clic
 
 ### Bulk Merge
 
-Notes are merged in the order they are selected. The first note selected is used as the new title and notebook. Tags, content, and sources are merged. If first note has no thumbnail, new thumbnail is used from rest of the notes.
+Notes are merged in the order they are selected. The first note selected is used as the new title and notebook. Tags, content, and sources are merged. If the first note has no thumbnail, and another note does, thumbnail from the other notes is sued.

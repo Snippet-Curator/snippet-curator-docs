@@ -9,9 +9,9 @@ Notes under Discover are presented based on their scores in a descending rank li
 
 ### Recency Score
 
-This is how recently the note was last viewed. Older notes are scored higher. Recency score is updated when a note is either seen via Discover or on its own and is not affected when the note is displayed as part of a notebook or tag list. 
+This is how recently the note was last viewed. Older notes are scored higher. Last viewed is updated when a note is either seen via Discover or on its own and is not affected when the note is displayed as part of a notebook or tag list. 
 
-Change its weight (between 0 and 1) to affect how heavily you want to resurface old notes. Use higher numbers (e.g. 1) to rank older notes higher. 
+Change its weight (between 0 and 10) to affect how heavily you want to resurface old notes. Use higher numbers (e.g. 10) to rank older notes higher. 
 
 Notes that have never been seen before gets a randomized score with slight boost.
 
@@ -22,7 +22,7 @@ Notes that have never been seen before gets a randomized score with slight boost
 
 Notes can be rated from 0 to 5. Higher rated notes are scored higher. Think of rating as more of a longterm score modifier (e.g. I like this note and will continue to like this note). 
 
-Adjust its weight (between 0 and 1) to affect how heavily a higher rated note will be scored.
+Adjust its weight (between 0 and 10) to affect how heavily a higher rated note will be scored.
 
 ### Vote Score
 
@@ -30,7 +30,7 @@ Adjust its weight (between 0 and 1) to affect how heavily a higher rated note wi
 
 Under Discover, notes can also be given upvote or downvote. By default, every note starts with vote of 5. Use weight as more of a short term score modifier (e.g., I like this note but just want to see it less).
 
-Adjust its weight (between 0 and 1) to affect how heavily a higher voted note will be scored.
+Adjust its weight (between 0 and 10) to affect how heavily a higher voted note will be scored.
 
 
 ### Penalty and Penalty Recovery 
