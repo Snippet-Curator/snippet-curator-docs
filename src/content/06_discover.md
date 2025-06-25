@@ -45,5 +45,5 @@ One problem with having notes presented by scores is that lower scored notes are
 
 At startup, Snippet Curator will recalculate scores for notes to mitigate this problem. By default (0 day), all notes have their scores recalculated on startup. When the collection size is large enough, this may cause performance problems. For example, I currently have about 6,000 notes, and it takes about 1.5 seconds to calculate all of their scores.
 
-You can change this to a different cutoff to refresh scores for notes last calculated before the cutoff. For example, changing it to 5 will calculate only notes with scores more than 5 days old. 
+You can change this to a different cutoff. For example, changing it to 5 will calculate only notes with scores more than 5 days old. 
 

@@ -15,6 +15,10 @@ Right click on any notes while viewing a notebook or tag page to reveal the edit
 
 ![](/images/edit-note.png)
 
+An example of edit dialog. The available items you can edit are title, description, sources, and thumbnail:
+
+![](/images/edit-note-dialog.png)
+
 ## Top Bar
 
 The top bar is available anytime viewing a note on its own:
@@ -30,9 +34,18 @@ From left to right:
 - trash
 - note info
 
-![](/images/edit-note-dialog.png)
 
-An example of edit dialog. 
+## Add Content
+
+At the bottom of every note is an "Add to Note" button:
+
+![](/images/add-to-note.png)
+
+You can use this to append content, including copied images, to the note:
+
+![](/images/edit-note-toolbar.png)
+
+While editing the note content directly would be nice, I found that this was very difficult without messing up the style. Most of available editors will strip existing styles when editing. For now, this is the easiest option to treat existing save as non-editable.
 
 ## Bulk Edits 
 

@@ -48,13 +48,20 @@ You can add youtube urls to to save youtube videos. The videos are not downloade
 
 ![](/images/youtube-save.png)
 
-The saved format is very barebone, and only includes title, thumbnail, embedded video, and description:
+The saved format is very barebone, and only includes title, thumbnail, description, and embedded video, :
 
 ![](/images/youtube-content.png)
+
+![](/images/youtube-content2.png)
 
 The embedded version of youtube will require internet to work. It's also not perfect. Youtube or the video uploader will often place restrictions on whether a video can be embedded or not. I found it hit or miss on which ones can be played while embedded:
 
 ![](/images/youtube-unavailable.png)
+
+
+## Instagram
+
+There are multiple ways to save instagram posts. None of them are perfect. If you don't mind tinkering, I have made my personal script [here](https://github.com/kangruixiang/instatonote) that will save public instagram posts as an html file, including videos. And then you can use it to import into Curator.
 
 
 ## How Different Saved Items Are Displayed

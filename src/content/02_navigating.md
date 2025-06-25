@@ -21,3 +21,8 @@ Use `ctrl` + `l` anywhere in the app to bring up the quick navigation box:
 
 This allows you to quickly find notebook or tags. You can also use it to navigate to other sections including **Discover**, **Import**, and **Settings**.
 
+## Keyboard Navigation
+
+Keyboard shortcuts can make navigation and editing notes much faster: 
+
+![](/images/shortcuts.png)
