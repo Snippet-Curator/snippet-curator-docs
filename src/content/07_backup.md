@@ -10,3 +10,5 @@ All of the files and database are stored under a folder called `pb_data`. You ca
 On **Windows**, you can access the folder by opening the file manager and typing `%APPDATA%\snippet-curator`. 
 
 On **Mac**, you can find this folder under `~/Library/Application Support/snippet-curator`.
+
+In future releases, I'll add export support.

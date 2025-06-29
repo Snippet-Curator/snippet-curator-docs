@@ -3,7 +3,11 @@ title: Install
 description: 
 ---
 
-Snippet Curator is provided for free. You can download the latest version for Mac or Windows [here](https://github.com/Snippet-Curator/snippet-curator-releases/releases/tag/main).
+Snippet Curator is provided for free. You can download the latest version for Mac or Windows:
+
+<a href="https://github.com/Snippet-Curator/snippet-curator-releases/releases/latest">
+<button class="btn btn-primary">Download</button>
+</a>
 
 For **Windows**, look for the file ending in `.exe`.
 For **Mac**, look for the file ending in `.dmg`.

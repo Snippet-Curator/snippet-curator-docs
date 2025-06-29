@@ -8,6 +8,6 @@ Instead of links to webpages, items imported to Snippet Curator are saved and vi
 
 Snippet Curator helps discovering notes by ranking each note with a score and present them based on their rating, votes, and how recently they were seen. Add items and forget them. Eventually, you'll see them again.
 
-No data is collected from you. The app only connects to internet for updates and for Youtube embeds. No AI is used anywhere in the app. 
+No data is collected from you. The app only connects to internet for updates and for Youtube embeds. AI is not used anywhere in the app. 
 
 I made Snippet Curator for myself, as my personal alternative to Evernote and Anki. 
