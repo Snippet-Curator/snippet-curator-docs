@@ -32,7 +32,7 @@ You can also discuss thoughts about Snippet Curator [here](https://github.com/Sn
   <input type="radio" name="my-accordion-3" />
   <div class="collapse-title font-semibold">Will there ever be paid features or planned subscriptions?</div>
   <div class="collapse-content">
-  I don't have plans to limit any function behind a paywall. If there's enough request, I may consider a sync service to support development. But the software itself will always be free.
+  I don't have plans to limit any function behind a paywall. If enough people use it, I may consider a sync service to support development. But the software itself will always be free.
   </div>
 </div>
 
