@@ -5,7 +5,7 @@ description:
 
 ## Acknowledgement
 
-Special thanks to [Pocketbase and Gani](https://pocketbase.io/), for its open source database that made Snippet Curator possible. 
+Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Snippet Curator possible. 
 
 ## Issues
 
@@ -22,7 +22,7 @@ You can also discuss thoughts about Snippet Curator [here](https://github.com/Sn
 
 <div class="collapse collapse-plus bg-base-100 border border-base-300 text-lg">
   <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">Is Snippet Curator really free? What's the catch?</div>
+  <div class="collapse-title font-semibold">Is Snippet Curator really free?</div>
   <div class="collapse-content">
   Yes. I made it for myself and use it everyday and decided that other people should use it too because of how good it is (pat myself on the back).
   </div>
@@ -46,12 +46,12 @@ You can also discuss thoughts about Snippet Curator [here](https://github.com/Sn
 
 <div class="collapse collapse-plus bg-base-100 border border-base-300 text-lg">
   <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">Any plans to make its own web clipper?</div>
-  <div class="collapse-content">At the moment, no. SingleFile currently does pretty much everything Evernote clipper can do.</div>
+  <div class="collapse-title font-semibold">Any plan to make its own web clipper?</div>
+  <div class="collapse-content">At the moment, no. SingleFile currently does pretty much everything Evernote clipper can do. Making a web clipper from scratch would takes years of effort to have something of similar polish.</div>
 </div>
 
 <div class="collapse collapse-plus bg-base-100 border border-base-300 text-lg">
   <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">What's the best way to use Discover?</div>
-  <div class="collapse-content">It's personal preference. I've found, however, it's easiest to rate things as you go. I'll usually use my left hand to navigate between notes and right hand to rate notes if I'm on a computer.</div>
+  <div class="collapse-title font-semibold">Any plan to add AI for ranking notes in Discover section?</div>
+  <div class="collapse-content">No. I like things the way it is right now. You have more control over exactly how the algorithm works. It's more private and less bloated.</div>
 </div>
