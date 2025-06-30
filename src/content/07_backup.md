@@ -11,4 +11,4 @@ On **Windows**, you can access the folder by opening the file manager and typing
 
 On **Mac**, you can find this folder under `~/Library/Application Support/snippet-curator`.
 
-In future releases, I'll add export support.
+In future releases, I'll add support to export notes to HTML.
