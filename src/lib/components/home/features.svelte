@@ -21,8 +21,13 @@
 						Add Evernote exports, SingleFile saves, images, videos, audio, and PDFs files. Saved
 						offline, available even when the webpage disappears.
 					</p>
+
 					<div class="mt-4">
-						<button class="btn btn-ghost">See How Imports Work <ChevronRight size={18} /> </button>
+						<a href="/docs/03_import_notes">
+							<button class="btn btn-ghost"
+								>See How Imports Work <ChevronRight size={18} />
+							</button>
+						</a>
 					</div>
 				</div>
 
@@ -73,9 +78,11 @@
 					>
 						<p>Notes are presented based on rating, upvotes, and how recently they were viewed.</p>
 						<div class="mt-4">
-							<button class="btn btn-ghost"
-								>See How Discover Work <ChevronRight size={18} />
-							</button>
+							<a href="/docs/06_discover">
+								<button class="btn btn-ghost"
+									>See How Discover Work <ChevronRight size={18} />
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>
