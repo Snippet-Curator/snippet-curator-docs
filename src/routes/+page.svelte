@@ -39,7 +39,7 @@
 			name: 'Video Viewer',
 			component: VViewer,
 			title: 'Video Viewer',
-			description: 'Save your favorite memes and cat videos'
+			description: 'Save your favorite memes and cat videos.'
 		},
 
 		{
