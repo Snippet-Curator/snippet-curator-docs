@@ -7,8 +7,9 @@
 		Shortcuts,
 		Viewer,
 		Paginate,
-		Search,
-		Download
+		Discover,
+		Download,
+		VViewer
 	} from '$lib/index';
 	import Footer from '$lib/components/home/footer.svelte';
 	import { onMount, type Component } from 'svelte';
@@ -18,21 +19,29 @@
 			name: 'Organize',
 			component: Organize,
 			title: 'Organize with Notebooks and Tags',
-			description: 'Organize with Notebooks and Tags.'
+			description: 'Organize with notebooks and tags.'
+		},
+		{
+			name: 'Discover',
+			component: Discover,
+			title: 'Discover',
+			description: 'Control how you want to resurface notes based on different criteria.'
 		},
 
 		{
 			name: 'Image Viewer',
 			title: 'Image Viewer',
 			component: Viewer,
-			description: 'See Images in Fullscreen.'
+			description: 'See images in fullscreen.'
 		},
+
 		{
-			name: 'Search',
-			component: Search,
-			title: 'Full Text Search',
-			description: 'Notes are loaded in a near instant.'
+			name: 'Video Viewer',
+			component: VViewer,
+			title: 'Video Viewer',
+			description: 'Save your favorite memes and cat videos'
 		},
+
 		{
 			name: 'Keyboard Shortcuts',
 			title: 'Keyboard Shortcuts',

@@ -5,7 +5,7 @@ import type { SiteConfig } from "./types/config";
 
 
 export const siteConfig: SiteConfig = {
-    version: '0.1.3',
+    version: '0.1.11',
     title: 'Snippet Curator',
     description:
         'Organize and re-discover your internet saves.',

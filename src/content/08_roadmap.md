@@ -3,7 +3,7 @@ title: Others
 description: 
 ---
 
-## Special Thanks
+## Acknowledgement
 
 Special thanks to [Pocketbase and Gani](https://pocketbase.io/), for its open source database that made Snippet Curator possible. 
 
@@ -55,4 +55,3 @@ You can also discuss thoughts about Snippet Curator [here](https://github.com/Sn
   <div class="collapse-title font-semibold">What's the best way to use Discover?</div>
   <div class="collapse-content">It's personal preference. I've found, however, it's easiest to rate things as you go. I'll usually use my left hand to navigate between notes and right hand to rate notes if I'm on a computer.</div>
 </div>
-
