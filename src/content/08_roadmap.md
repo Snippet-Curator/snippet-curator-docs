@@ -9,13 +9,13 @@ Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Snippe
 
 ## Issues
 
-If you find bugs, you can report them [here](https://github.com/Snippet-Curator/snippet-curator-releases/issues).
+If you find bugs, you can report them [here](hhttps://github.com/Snippet-Curator/snippet-curator/issues).
 
 ## Roadmap
 
 You can view the roadmap [here](https://github.com/orgs/Snippet-Curator/projects/1). This is where I keep potential ideas and what I'm working on.
 
-You can also discuss thoughts about Snippet Curator [here](https://github.com/Snippet-Curator/snippet-curator-releases/discussions).
+You can also discuss thoughts about Snippet Curator [here](https://github.com/Snippet-Curator/snippet-curator/discussions).
 
 
 ## FAQ
@@ -24,7 +24,7 @@ You can also discuss thoughts about Snippet Curator [here](https://github.com/Sn
   <input type="radio" name="my-accordion-3" />
   <div class="collapse-title font-semibold">Is Snippet Curator really free?</div>
   <div class="collapse-content">
-  Yes. I made it for myself and use it everyday and decided that other people should use it too because of how good it is (pat myself on the back).
+  Yes, and it's open source. I made it for myself and use it everyday and decided that other people should use it too because of how good it is (pat myself on the back).
   </div>
 </div>
 

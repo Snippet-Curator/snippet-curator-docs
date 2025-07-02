@@ -2,7 +2,7 @@
 title: About
 ---
 
-Snippet Curator is a personal, private, and offline app that you can use to import and re-discover internet clips over time. 
+Snippet Curator is an open source, personal, private, and offline app that you can use to import and re-discover internet clips over time. 
 
 Instead of links to webpages, items imported to Snippet Curator are saved and viewable offline. Even if the original webpage is deleted or you lose internet connection, your saves are still secure on your computer. 
 
