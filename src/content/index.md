@@ -3,7 +3,7 @@ title: Download and Install
 description: 
 ---
 
-Snippet Curator is provided for free. You can download the latest version for Mac or Windows:
+Snippet Curator is open source and provided for free. You can download the latest version for Mac or Windows:
 
 <a href="https://github.com/Snippet-Curator/snippet-curator-releases/releases/latest">
 <button class="btn btn-primary">Download</button>
@@ -13,6 +13,8 @@ For **Windows**, look for the file ending in `.exe`.
 For **Mac**, look for the file ending in `.dmg`.
 
 If you are interested in **Linux** version, [let me know](/docs/08_roadmap).
+
+I have managed to host it on my home server via Docker. It's possible but still needs more tinkering.
 
 ## Troubleshoot
 
