@@ -9,7 +9,7 @@ Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Snippe
 
 ## Issues
 
-If you find bugs, you can report them [here](hhttps://github.com/Snippet-Curator/snippet-curator/issues).
+If you find bugs, you can report them [here](https://github.com/Snippet-Curator/snippet-curator/issues).
 
 ## Roadmap
 
